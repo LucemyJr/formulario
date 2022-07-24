@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ebf8f7;
+}
+
+h1, h2, h3, h4, h5{
+    color: #333;
+}
+
+p, label{
+    color: #444;
+}
+
+input{
+    border: 1px solid transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0px;
+}
+
+input[type=text], input[type=number], input[type=date], input[type=file]{
+    width: 25rem;
+}
+
+textarea{
+    padding: .7rem .3rem;
+    width: 25rem;
+}
+
+.header{
+    height: 10rem;
+    padding: 1.1rem;
+    background-color: #518a94;
+}
+
+.header h3{
+    color: #fff;
+    margin-top: 0;
+    text-align: center;
+}
+
+.form-container{
+    background-color: #fff;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -4rem;
+}
+
+.font-header{
+    border-bottom: 1px solid #dfdfdf;
+    height: 2.8rem;
+}
+
+.form-header p{
+    color: #518a94;
+    border-bottom: 2px solid #518a94;
+    width: 6.25rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    height: 2.8rem;
+    line-height: 2.8rem;
+    font-weight: bold;
+    
+}
+
+.form-body{
+    padding: 2rem;
+}
+
+.form-title{
+    margin: 0;
+}
+
+.required-field{
+    color: #ff0000;
+}
+
+.box-input{
+    margin-bottom: 2rem;
+}
+
+.block{
+    display: block;
+}
+
+.optional-box{
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.option-list{
+    padding-left: 0;
+}
+
+.option-list li{
+    list-style: none;
+}
+
+.btn-submit{
+    background-color: #518a94;
+    color: #fff;
+    border: 2px solid transparent;
+    font-weight: bold;
+    width: 9.3rem;
+    height: 3.1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-submit:hover{
+    background-color: #fff;
+    border-color: #518a94;
+    color: #518a94;
+
+}
+
+@media (max-width: 800px){
+    input[type=text], input[type=number], input[type=date], input[type=file]{
+        width: 90%;
+    }
+    textarea{
+        width: 90%;
+    }
+    .form-container{
+        width: 20rem;
+    }
+    #images{
+        font-size: .65rem;
+    }
+}
